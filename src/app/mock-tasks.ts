@@ -24,5 +24,5 @@ export const TASKS: Task[] = [
         text: "Ponerme al dia con la lectura",
         day: 'Agosto 5 a las 21:00',
         reninder: false
-    },
+    }
 ]
