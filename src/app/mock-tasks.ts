@@ -1,8 +1,9 @@
 import {Task} from "./Task"
+
 export const TASKS: Task[] = [
     {
         id: 1,
-        text: "Terminar priemr modulo de Angular",
+        text: "Terminar primer modulo de Angular",
         day: 'Agosto 5 a las 12:00',
         reninder: true
     },
@@ -20,7 +21,7 @@ export const TASKS: Task[] = [
     },
     {
         id: 4,
-        text: "Terminar priemr modulo de Angular",
+        text: "Ponerme al dia con la lectura",
         day: 'Agosto 5 a las 21:00',
         reninder: false
     },
