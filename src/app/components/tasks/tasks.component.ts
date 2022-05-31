@@ -31,4 +31,8 @@ export class TasksComponent implements OnInit {
       ))
   }
 
+  toggleReninder(task:Task){
+    task.reninder = !task.reninder
+  }
+
 }

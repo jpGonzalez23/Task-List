@@ -1,4 +1,8 @@
-<div class="task"> 
+<div 
+    class="task"
+    |ngClass|="{ reminder: task.reminder}" 
+    (dbclick)="onToggle(task)"
+> 
     <h3>{{task.text}}
         <fa-icon 
             [icon]="faTimes"
